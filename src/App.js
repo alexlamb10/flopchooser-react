@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import Top from './components/Top';
 import Answer from './components/Answer';
-import Movie from './components/Movie';
+import Movies from './components/Movies';
 
 function App() {
   const [chosen, setChosen] = useState(false)
@@ -12,7 +12,7 @@ function App() {
     <div className="App App-header">
       <Top />
       <Answer chosen={chosen} correct={correct} incorrect={incorrect} />
-      <Movie />
+      <Movies />
     </div>
   );
 }
