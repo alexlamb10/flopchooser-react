@@ -2,7 +2,10 @@ import React from 'react'
 
 function Top() {
   return (
-    <div>Top</div>
+    <div>
+        <h1>Flopchooser</h1>
+        <p>Which film has a lower IMBD rating?</p>
+    </div>
   )
 }
 
