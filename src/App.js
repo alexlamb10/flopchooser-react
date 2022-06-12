@@ -12,7 +12,7 @@ function App() {
     <div className="App App-header">
       <Top />
       <Answer chosen={chosen} correct={correct} incorrect={incorrect} />
-      <Movies />
+      <Movies chosen={chosen} setChosen={setChosen} setCorrect={setCorrect} setIncorrect={setIncorrect} />
     </div>
   );
 }
